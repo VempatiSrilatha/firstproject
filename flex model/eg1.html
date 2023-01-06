@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex</title>
+    <style>
+        section{
+            border: 2px solid white;
+            display: flex;
+            padding: 5px;
+            margin: 5px;
+        }
+
+        section div{
+            border: 2px solid white;
+            flex: 1;
+            margin: 15px;
+            padding: 150px;
+        }
+
+        .container > div{
+            height: 50px;
+            padding: 5px;
+            
+        }
+
+        .container >div:first-child{
+            flex: 0.5;
+            height: 100px;
+        }
+
+        img{
+            width: 290px;
+            padding: 10px;
+            
+        }
+
+    .imagecontainer{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    .img1{
+        width: 290px;
+        
+        
+    }
+
+    .img2{
+        width: 290px;
+        
+    }
+    .img3{
+        width: 290px;
+    }
+    .img4{
+        width: 290px;
+    }
+    .logocontainer{
+        border: 2px solid white;
+        height: 50px;
+        width: 50%;
+        display: flex;
+    }
+
+    .container{
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+
+    
+
+    
+
+        
+        
+        
+    </style>
+</head>
+<body>
+    <section class="container">
+        <div class="logocontainer">
+            <img src="applenewlogo.jpg" alt="logo" height="100px" width="700px">
+        </div>
+        <div>
+            <select name="" id=""  style="height: 50px; width: 200px;">
+                <optgroup  label="Dropdown1">
+                    <option value="Dropdown1"> Dropdown1</option>
+                    <option value="Dropdown2"> Dropdown2</option>
+                    <option value="Dropdown3"> Dropdown3</option>
+                    <option value="Dropdown4"> Dropdown4</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <select name="" id=""  style="height: 50px; width: 200px;">
+                <optgroup  label="Dropdown1">
+                    <option value="Dropdown1"> Dropdown1</option>
+                    <option value="Dropdown2"> Dropdown2</option>
+                    <option value="Dropdown3"> Dropdown3</option>
+                    <option value="Dropdown4"> Dropdown4</option>
+                </optgroup>
+            </select>
+        </div>
+        <div>
+            <select name="" id=""  style="height: 50px; width: 200px;">
+                <optgroup  label="Dropdown1">
+                    <option value="Dropdown1"> Dropdown1</option>
+                    <option value="Dropdown2"> Dropdown2</option>
+                    <option value="Dropdown3"> Dropdown3</option>
+                    <option value="Dropdown4"> Dropdown4</option>
+                </optgroup>
+            </select>
+        </div>
+    </section>
+
+    <section class="onecontainer">
+        <div>
+            <img src="iphone1.jpg" alt="" >
+            
+                
+                
+            <img src="iphone10.jpg" alt="">
+            
+          
+            <img src="iphone2.jpg" alt="" >
+
+            <img src="iphone11.jpg" alt="">
+
+            <img src="iphone12.jpg" alt="">
+        
+
+        
+            <img src="iphone3.jpg" alt="">
+            
+
+            
+            <img src="iphone8.jpg" alt="">
+
+            <img src="iphone9.png" alt="" style="text-align: right;">
+            
+            
+        </div>
+        
+    </section>
+
+    <section class="imagecontainer" style="text-align: center;">
+        <div class="img1">
+            <img src="iphone4.jpg" alt="" height="50%" width="100%" ><br><br>
+            
+            <dl>
+                <h3>Iphone12</h3></dt>
+                <p><b>Rs.64,900</b></p>
+                <dd>5G speed.A14 Bionic,the fastest chip in a smartphone.An edge-to-edge OLED display.Ceramic shield with four times better
+                    drop performance.And Night mode on every camera.Iphone 12 has it all</dd>
+            </dl>
+        </div>
+        <div class="img2"><img src="iphone5.jpg" alt="" height="50%" width="100%">
+            <dl>
+                <dt><h3>Iphone12Pro</h3></dt>
+                <p><b>Rs.88,199</b></p>
+                <dd>Low light performance,noise reduction and contrast are improved.The camera also supports HDR video recording in Dolby
+                Vision and Night mode selfies,which are a nice addition to the front-camera</dd>
+            </dl>
+        </div>
+        <div class="img3"><img src="iphone6.webp" alt="" height="50%" width="100%">
+            <dl>
+                <dt><h3>Iphone12ProMax</h3></dt>
+                <p><b>Rs.95,599</b></p>
+                <dd>As the addition of some extra camera enhancements and a larger battery to the larger size and also hae the larger 6.7inch
+                display and long batter life</dd>
+            </dl>
+        </div>
+        <div class="img4"><img src="iphone7.jpg" alt=""  height="50%" width="100%">
+            <dl>
+                <dt><h3>Iphone13</h3></dt>
+                <p><b>Rs.69,900</b></p>
+                <dd>Our most advanced dual-camera system ever.An even brighter OLED Display.A lightning-fast chip that leaves the
+                    competition behind.A huge leap in battery life.SIM-free</dd>
+            </dl>
+        </div>
+        
+    </section>
+
+    <footer style="text-align: center;">
+        <p><b>Copyright&copy Apple 2023 all rights reserved</b></p>
+    </footer>
+
+    
+</body>
+</html>
